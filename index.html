@@ -21,6 +21,11 @@
     <link id="theme-style" rel="stylesheet" href="assets/css/styles.css">
 
     <link rel="shortcut icon" href="favicon.png" type="image/png">
+    <style>
+        *{
+            background-color: coral;
+        }
+    </style>
 
 </head>
 
@@ -35,11 +40,11 @@
             <!--//profile-container-->
             <p style="color:red;">MY CV for Github should be perfect</p>
             <a href="http://amir-shishehgari.se/">min online sida</a>
-            <img src="code.jpg" width="500" height="500" alt="">
+            <img src="code.jpg" width="100%"  alt="">
             <h6 style="font-size: 20px;">Amirrrrr </h6>
-            <p>vi kan ha mycket mellanslag i texten</p>
+            <p>vi kan ha mycket mellanslag i texten &#9829;</p>
             <hr>
-            <p>men om du kolla <br> finns ingenting
+            <p>men om du kolla &#128525; <br> finns ingenting
             </p>
             <del>
                 <pre>
@@ -47,6 +52,14 @@
                 skulle kolla hur
                 det ser ut
             </pre> </del>
+            <span>
+                <h6>First name</h6>
+                <input type="text" value="amir">
+                <h6>Last name</h6>
+                <input type="text" value="shishehgari"> <br>
+                <button>click</button>
+
+            </span>
             <p style="background-color: crimson; text-align: center;">Hello amir</p>
             <button> <a href="http://amir-shishehgari.se/#resume"> resume</a> </button>
             <table>
@@ -259,15 +272,19 @@
 
             <!-- Javascript -->
             <h6>example javascript</h6>
-            <p id="hi"></p>
-            <button type="button" onclick="amir()">change</button>
+            <button type="button" onclick="amir(0)">change</button>
+            <button type="button" onclick="amir(1)">unchange</button>
             <p id="change">hello amir jon</p>
 
             <script>
-                function amir(){
-                    document.getElementById('change').innerHTML= 'changed amir joon';
-                }
-                document.getElementById('hi').innerHTML='hello amir';
+                function amir(sw){
+                    if(sw==0){
+                    document.getElementById("change").style.color="red";
+                    console.log(amir(sw))
+                 } else {
+                    document.getElementById("change").style.color="black";
+                     }
+                    
             </script>
             <script src="assets/plugins/jquery-1.11.3.min.js"></script>
             <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
