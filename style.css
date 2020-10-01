@@ -6,32 +6,33 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
+  background-color: black;
 }
 
 /* Header/logo Title */
 .header {
-  padding:140px 100px 200px 100px;
+  padding:80px 100px 200px 100px;
   background:black;
   
 }
 
 /* Increase the font size of the heading */
 .header h1 {
-  color: white;
+  color: orange;
 }
 
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
   background-color:orange;
-  display:flex;
+  display: flex;
 }
 
 /* Style the navigation bar links */
 .navbar a {
   float: left;
   display: block;
-  color: black;
+  color: white;
   text-align: center;
   padding: 14px 20px;
   text-decoration: none;
@@ -40,6 +41,10 @@ body {
 /* Right-aligned link */
 .navbar a.right {
   float: right;
+}
+.paddingL{
+  margin-top: 20px;
+  padding-left: 20%;
 }
 
 /* Change color on hover */
@@ -75,40 +80,40 @@ body {
 
 /* Fake image, just for this example */
 .fakeimg {
-  background-color: #aaa;
-  width: 50px;
-  height: 60px;
-  padding: 20px;
-
+  width: 100%;
+  padding-left: 50px;
 }
 ul{
   display: inline;
   list-style-type: none;
 }
 .center{
+  color: white;
   padding-left: 70px;
-  padding-top: 10px;
+  padding-top: 20px;
+  background-color: black;
 }
 .color{
-  color: white;
+  color: orange;
   padding-left: 30px;
-  padding-top: 50px;
+  padding-top: 30px;
 
 }
 .buttom{
   text-align: center;
 }
 .img{
-  width: 50px;
-  height: 50px;
+  max-width: 100%;
 }
-
+b{
+  color: orange;
+}
 
 /* Footer */
 .footer {
   padding: 20px;
   text-align: center;
-  background: #ddd;
+  background: orange;
 }
 
 /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
