@@ -108,6 +108,9 @@ ul{
 b{
   color: orange;
 }
+li i{
+  font-size:36px;
+}
 
 /* Footer */
 .footer {
