@@ -24,7 +24,7 @@ body {
 /* Style the top navigation bar */
 .navbar {
   overflow: hidden;
-  background-color:orange;
+  background-color:white;
   display: flex;
 }
 
@@ -77,6 +77,9 @@ body {
   background-color: white;
   padding: 20px;
 }
+.bg-warning {
+  color: black;
+}
 
 /* Fake image, just for this example */
 .fakeimg {
@@ -88,7 +91,7 @@ ul{
   list-style-type: none;
 }
 .center{
-  color: white;
+  color: #a5a5a0;
   padding-left: 70px;
   padding-top: 20px;
   background-color: black;
@@ -110,6 +113,10 @@ b{
 }
 li i{
   font-size:36px;
+}
+h4{
+  text-align: left;
+  font-size: 20px;
 }
 
 /* Footer */
